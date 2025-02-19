@@ -21,3 +21,7 @@ console.log(sentence);
 Object.defineProperty(book, "yearPublished", { value: "1912" });
 
 console.log(book);
+
+const product = [{ productName: "Iphone 16", price: 1200, isAvailable: "Yes" }];
+
+console.log(product);
