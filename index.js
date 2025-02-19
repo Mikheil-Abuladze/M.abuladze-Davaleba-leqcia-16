@@ -9,4 +9,15 @@ const book = {
   title: "Swann's way",
 };
 
+const title = "Swann's way";
+const author = "Proust";
+const yearPublished = 1913;
+
+const sentence =
+  title + " by" + author + " was published in " + yearPublished + ".";
+
+console.log(sentence);
+
+Object.defineProperty(book, "yearPublished", { value: "1912" });
+
 console.log(book);
