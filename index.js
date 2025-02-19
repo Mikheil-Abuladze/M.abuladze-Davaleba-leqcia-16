@@ -22,6 +22,10 @@ Object.defineProperty(book, "yearPublished", { value: "1912" });
 
 console.log(book);
 
-const product = [{ productName: "Iphone 16", price: 1200, isAvailable: "Yes" }];
+const product = [
+  { productName: "Iphone 16", price: 1200, isAvailable: "Yes" },
+  { productName: "Pixel 9 ", price: 1100, isAvailable: "Yes" },
+  { productName: "Galaxy Fold", price: 2000, isAvailable: "no" },
+];
 
 console.log(product);
